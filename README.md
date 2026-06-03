@@ -1,1 +1,1 @@
-# phd-registration-exercise
+This is a temporary repository for sharing the code used in the registration exercise. Folders are named after sections of the report, and the code inside each folder corresponds to that section. Data and materials are not included in this repository to avoid sharing them before peer review and validation.

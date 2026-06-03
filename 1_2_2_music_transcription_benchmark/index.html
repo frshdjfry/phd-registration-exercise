@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Transcription Benchmark</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <div class="title-row">
+      <div>
+        <h1>Music Transcription Benchmark</h1>
+<!--        <div class="subtitle">Samples vs model transcriptions</div>-->
+      </div>
+    </div>
+
+    <div class="table-shell">
+      <div class="table-header-strip">
+        <div class="header-label">
+          Samples × Models
+        </div>
+        <div class="scroll-hint">
+          Scroll
+          <div class="arrow">
+            <span>⟵</span><span>⟶</span>
+          </div>
+        </div>
+      </div>
+      <div class="table-container">
+        <table id="transcription-table"></table>
+      </div>
+    </div>
+  </div>
+
+
+<script src="https://unpkg.com/wavesurfer.js@7.8.14/dist/wavesurfer.min.js"></script>
+<script src="https://unpkg.com/wavesurfer.js@7.8.14/dist/plugins/spectrogram.min.js"></script>
+<script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
